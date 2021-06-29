@@ -9,7 +9,7 @@ body{
     padding-top: 5%;
 }
 #row2, #row3{
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .con{
     text-align: center;
@@ -19,6 +19,8 @@ body{
     border-radius: 20%;
     height: 100px;
     width: 150px;
+    color:white;
+    font-size: 24px;
 }
 .submit{
     width: 200px;
@@ -26,7 +28,9 @@ body{
     border-radius: 20%;
     height: 100px;
     margin-top: 5%;
-background-color: rgb(9, 9, 122);
+    background-color: rgb(9, 9, 122);
+    color: white;
+    font-size: 24px;
 }
 .subn{
     text-align: center;
