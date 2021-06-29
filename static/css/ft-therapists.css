@@ -2,3 +2,23 @@ body {
   background-color: #2C5F2D;
   color: white;
 }
+
+h1 {
+  text-align: center;
+}
+
+
+
+.therapist3 {
+  padding-top: 50px;
+}
+
+.therapist4 {
+  padding-top: 50px;
+}
+
+.btn {
+  color: white;
+  background-color: #2C5F2D;
+  border-color: white;
+}
