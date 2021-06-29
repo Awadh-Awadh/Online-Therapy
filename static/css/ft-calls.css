@@ -67,3 +67,48 @@ label{
    opacity: 0;
    transition: all 1s ease;
  }
+ .container-sms{
+  display: flex;
+  justify-content: space-around;
+}
+.thanks{
+  width: 400px;
+  height: 400px;
+  align-self: flex-end;
+}
+.head-sms{
+  color: #2C5F2D;
+  font-family: 'Poppins', sans-serif;
+}
+.head-sms h2{
+  font-size: 3rem;
+  letter-spacing: .4rem;
+  text-align: center;
+}
+.head-sms p{
+  font-size: 2rem;
+  width: 50%;
+  line-height: 4rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.btn-home{
+  padding: 1.5rem 3rem;
+  background-color: #2C5F2D;
+  outline: none;
+border: none;
+font-family: 'Poppins', sans-serif;
+cursor: pointer;
+color: #ffffff;
+font-size: 1.2rem;
+}
+.buttonback{
+text-align: center;
+margin: 4rem 0;
+
+}
+.btn-home:hover{
+  background-color: #ffffff;
+  border: 2px solid #2C5F2D;
+  color: #2C5F2D;
+}
