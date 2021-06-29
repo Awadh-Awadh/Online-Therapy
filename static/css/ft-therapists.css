@@ -1,0 +1,29 @@
+body {
+  background-color: #2C5F2D;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+image {
+  text-align: center;
+}
+
+.therapist {
+  padding-top: 50px;
+}
+
+
+
+.therapist-button {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.btn {
+  color: white;
+  background-color: #2C5F2D;
+  border-color: white;
+}
