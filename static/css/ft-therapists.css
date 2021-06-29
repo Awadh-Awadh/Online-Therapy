@@ -7,14 +7,19 @@ h1 {
   text-align: center;
 }
 
+image {
+  text-align: center;
+}
 
-
-.therapist3 {
+.therapist {
   padding-top: 50px;
 }
 
-.therapist4 {
-  padding-top: 50px;
+
+
+.therapist-button {
+  text-align: center;
+  padding-top: 100px;
 }
 
 .btn {
