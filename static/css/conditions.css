@@ -8,3 +8,26 @@ body{
     text-align: center;
     padding-top: 5%;
 }
+#row2, #row3{
+    margin-top: 5%;
+}
+.con{
+    text-align: center;
+}
+.btn{
+    border: 2px solid white;
+    border-radius: 20%;
+    height: 100px;
+    width: 150px;
+}
+.submit{
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 20%;
+    height: 100px;
+    margin-top: 5%;
+background-color: rgb(9, 9, 122);
+}
+.subn{
+    text-align: center;
+}
