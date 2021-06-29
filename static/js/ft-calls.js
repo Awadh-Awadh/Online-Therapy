@@ -5,6 +5,7 @@ let errorM = document.querySelector('.errorM');
 let errorP= document.querySelector('.errorP');
 let mail = document.querySelector('#mail');
 let phone = document.querySelector('#phone');
+let homeRedirect = document.querySelector('.btn-home');
 
 
 
@@ -25,11 +26,13 @@ function validate(){
     errorM.style.opacity=0
     errorN.style.opacity=0
     errorP.style.opacity=0
-    alert("We have recorded your Response. You will receive your call on you scheduled details")
-  }
+    location.replace("./send.html")
+    }
   
 }
 submit.addEventListener('click',(e)=>{
   validate()
   e.preventDefault();
+  
 })
+
