@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+ 
+}
+#calls{
+  background-color: #2C5F2D;
+
+
+}
+.header h4{
+  color: #ffff;
+  text-align: center;
+  font-size: 3rem;
+  padding: 3rem 0;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .6rem;
+}
+
+.form-calls{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0  0 0 15rem ;
+}
+.form-calls input,select{
+  padding: 10px;
+  display: block;
+  width: 50%;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  margin: 1.5rem;
+  outline: none;
+  
+}
+.form-calls input:focus{
+  border: 1px solid #2C5F2D;
+  background-color: #ffffff;
+
+}
+label{
+  display: inline;
+  text-align: left;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+.submit-btn{
+  padding: .5rem 3.5rem;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  margin: 2rem 10rem;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #2C5F2D;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
+ }
+ .errorN,.errorM,.errorP{
+   display: block;
+   margin: 1.5rem 1.5rem;
+   color: red;
+   opacity: 0;
+   transition: all 1s ease;
+ }
+ .container-sms{
+  display: flex;
+  justify-content: space-around;
+}
+.thanks{
+  width: 400px;
+  height: 400px;
+  align-self: flex-end;
+}
+.head-sms{
+  color: #2C5F2D;
+  font-family: 'Poppins', sans-serif;
+}
+.head-sms h2{
+  font-size: 3rem;
+  letter-spacing: .4rem;
+  text-align: center;
+}
+.head-sms p{
+  font-size: 2rem;
+  width: 50%;
+  line-height: 4rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.btn-home{
+  padding: 1.5rem 3rem;
+  background-color: #2C5F2D;
+  outline: none;
+border: none;
+font-family: 'Poppins', sans-serif;
+cursor: pointer;
+color: #ffffff;
+font-size: 1.2rem;
+}
+.buttonback{
+text-align: center;
+margin: 4rem 0;
+
+}
+.btn-home:hover{
+  background-color: #ffffff;
+  border: 2px solid #2C5F2D;
+  color: #2C5F2D;
+}
