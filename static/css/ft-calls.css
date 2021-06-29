@@ -37,6 +37,11 @@ body{
   outline: none;
   
 }
+.form-calls input:focus{
+  border: 1px solid #2C5F2D;
+  background-color: #ffffff;
+
+}
 label{
   display: inline;
   text-align: left;
@@ -54,4 +59,11 @@ label{
   color: #2C5F2D;
   font-family: 'Poppins', sans-serif;
   border-radius: 20px;
+ }
+ .errorN,.errorM,.errorP{
+   display: block;
+   margin: 1.5rem 1.5rem;
+   color: red;
+   opacity: 0;
+   transition: all 1s ease;
  }
