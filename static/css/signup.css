@@ -18,7 +18,7 @@
     h1 {
         color: #2c5f2d;
         text-align: center;
-        font-size: 30px;
+        font-size: 3rem;
         margin-top: 50px;
     }
     
@@ -27,7 +27,13 @@
         color: white;
         margin-left: 120px;
         text-align: center;
-        padding: 1rem 3rem;
+        padding: 1rem 4rem;
+        border: none;
+    }
+    .signup-reg:hover{
+        background-color: #fff;
+        border: 2px solid #2C5F2D;
+        color: #2C5F2D;
     }
     
     .signup-register {
@@ -49,13 +55,17 @@
     }
      */
     
-    .link {
-        align-self: flex-end;
-        margin-left: 100px;
-    }
     
     .link a {
         color: #2C5F2D;
         text-decoration: none;
-        margin: -100px 0 0 0;
+        margin: -220px 0 0 0;
+    }
+    .error-msg{
+        background-color: red;
+        color: #fff;
+        font-size: 1rem;
+        text-align: center;
+        opacity: 0;
+        transition: all 1s ease;
     }
