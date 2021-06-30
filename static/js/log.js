@@ -7,7 +7,7 @@ function validateLogIn(){
     alert("please fill the all the field")
   }
   else{
-    location.replace("./index.html")
+    location.replace(".")
 
   }
 }
