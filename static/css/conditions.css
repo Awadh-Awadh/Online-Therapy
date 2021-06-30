@@ -7,9 +7,15 @@ body{
     color: white;
     text-align: center;
     padding-top: 5%;
+    
+}
+#once{
+    text-align: center;
+    color: white;
+    padding: 2% 0 2% 0;
 }
 #row2, #row3{
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .con{
     text-align: center;
@@ -28,10 +34,23 @@ body{
     border-radius: 20%;
     height: 100px;
     margin-top: 5%;
-    background-color: rgb(9, 9, 122);
-    color: white;
+    background-color: rgb(180, 180, 189);
+    color: #2C5F2D;
     font-size: 24px;
+    
 }
 .subn{
     text-align: center;
+    padding-bottom: 2%;
 }
+
+.btncon, .btncon1, .btncon2, .btncon3, .btncon4, .btncon5, .btncon6, .btncon7, .btncon8{
+    display: none;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  p{
+      color: white;
+  }
+
