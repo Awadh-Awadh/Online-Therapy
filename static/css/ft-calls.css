@@ -4,19 +4,15 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #2C5F2D;
   
  
 }
-#calls{
-  background-color: #2C5F2D;
 
-
-}
 .header h4{
   color: #ffff;
   text-align: center;
   font-size: 3rem;
-  padding: 3rem 0;
   font-family: 'Poppins', sans-serif;
   letter-spacing: .6rem;
 }
@@ -25,16 +21,17 @@ body{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0  0 0 15rem ;
+  width: 800px ;
+  margin: 0 auto;
 }
 .form-calls input,select{
   padding: 10px;
   display: block;
-  width: 50%;
+  width: 100%;
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 20px;
-  margin: 1.5rem;
+  margin: 1.5rem 3rem;
   outline: none;
   
 }
@@ -51,15 +48,26 @@ label{
   font-family: 'Poppins', sans-serif;
 }
 .submit-btn{
-  padding: .5rem 3.5rem;
+  padding: .5rem 4rem;
   background-color: #ffffff;
   border: 2px solid #ffffff;
-  margin: 2rem 10rem;
+  margin: 2rem;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: #2C5F2D;
   font-family: 'Poppins', sans-serif;
   border-radius: 20px;
+  transition: all 0.8s ease-in-out;
+ }
+ .submit-btn:hover{
+   background-color: #2C5F2D;
+   color: #ffffff;
+   box-shadow: 1px 1px 4px #ffffff;
+ }
+ .submit-buton{
+  display: flex;
+  justify-content: center;
+  align-content: center;
  }
  .errorN,.errorM,.errorP{
    display: block;
