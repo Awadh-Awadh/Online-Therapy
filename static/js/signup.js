@@ -16,7 +16,7 @@ function validateSignup(){
     alert("password is too short")
    }
    else{
-     location.replace("./index.html");
+     location.replace("./conditions.html");
      errorMsg.style.opacity = 0;
    }
 
