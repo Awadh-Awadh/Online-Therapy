@@ -28,7 +28,7 @@
 
   
 ## Live link
-[Live Link](https://awadh-awadh.github.io/Delani-Studio/)
+[Live Link](https://awadh-awadh.github.io/Online-Therapy/)
   
 ## Technologies used
   - HTML
