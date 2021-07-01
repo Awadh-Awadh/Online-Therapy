@@ -1,0 +1,56 @@
+body{
+    background-color: #2C5F2D;
+    height: 100vh;
+    width: 100%;
+}
+#First{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+#once{
+    text-align: center;
+    color: white;
+    padding: 2% 0 2% 0;
+}
+#row2, #row3{
+    margin-top: 5%;
+}
+.con{
+    text-align: center;
+}
+.btn{
+    border: 2px solid white;
+    border-radius: 20%;
+    height: 100px;
+    width: 150px;
+    color:white;
+    font-size: 24px;
+}
+.submit{
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 20%;
+    height: 100px;
+    margin-top: 5%;
+    background-color: rgb(180, 180, 189);
+    color: #2C5F2D;
+    font-size: 24px;
+    
+}
+.subn{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.btncon, .btncon1, .btncon2, .btncon3, .btncon4, .btncon5, .btncon6, .btncon7, .btncon8{
+    display: none;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  p{
+      color: white;
+  }
+

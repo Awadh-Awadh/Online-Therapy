@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color: #2C5F2D;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.feature-image{
+  text-align: center;
+  margin: 2rem 0;
+  
+}
+.feature-photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 3px solid white;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.feature-photo:hover{
+  width: 300px;
+  height: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.therapist {
+  padding-top: 50px;
+}
+.container h1{
+  padding: 3rem 0;
+  font-size: 3.5rem ;
+}
+
+
+.therapist-button {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.btn {
+  color: white;
+  background-color: #2C5F2D;
+  border-color: white;
+  padding: 1rem 4rem;
+  
+}
