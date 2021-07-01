@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+body{
+  height: 100vh;
+}
 .landing-logo{
 width: 80px;
 height: 80px;
