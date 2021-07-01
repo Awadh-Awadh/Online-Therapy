@@ -7,12 +7,21 @@ let register = document.querySelector('.signup-reg')
 
 
 function validateSignup(){
-   if(firstName.value ===' '|| lastName.value === ' ' || email.value === ' ' || password.value === ''){
+   if( firstName.value.length ===0){
+    errorMsg.style.opacity = 1;
+    errorMsg.innerText = "Please enter your first name"
+     }
+  else if( lastName.value.length ===0){
   errorMsg.style.opacity = 1;
-  errorMsg.innerText = "Fill the input fields"
+  errorMsg.innerText = "Please enter your second name"
    }
-   if (password.value.length<6 ){
-    // errorMsg.sty.opacity = 1;
+   else if( email.value.length ===0){
+    errorMsg.style.opacity = 1;
+    errorMsg.innerText = "Email field cannot be empty"
+     }
+  
+  else if (password.value.length<6 ){
+    
     alert("password is too short")
    }
    else{
